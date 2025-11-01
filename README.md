@@ -1,16 +1,50 @@
-# React + Vite
+# 🧠 Text Search Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React (Vite)** application that allows users to search through a list of articles.  
+When the user types a keyword, all matching words are **highlighted in yellow**,  
+and the app shows how many total matches were found (e.g., “12 found”).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 How to Run the Project
 
-## React Compiler
+1. **Clone this repository:**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+git clone https://github.com/aliorabiii/text-search
 
-## Expanding the ESLint configuration
+Move into the project folder:
+cd text-search-project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Open your browser at the URL shown in the terminal
+👉 Usually http://localhost:5173
+
+🧩 Features:
+🔍 Real-time text search
+✨ Highlights all matching words
+🧮 Displays total count of found words (e.g., “12 found”)
+⚡ Built with React + Vite
+🎨 Clean and simple UI
+🗂️ Project Structure
+
+
+src/
+ ├── App.jsx         # Main React component
+ ├── data.js         # Articles data
+ ├── index.css       # Global styles
+ └── main.jsx        # React root entry
+
+🎯 Project Purpose
+This project was built as part of a Coderbyte assessment.
+The goal is to demonstrate practical front-end development skills using React —
+including live search, dynamic highlighting, and DOM rendering with dangerouslySetInnerHTML.
+
+
+👨‍💻 Author
+Ali Orabi
+Full Stack Web Developer
+📧 orabiali928@gmail.com
